@@ -84,6 +84,7 @@ footer {
 .contact-link:hover {
   text-decoration: none;
   color: #2196f3;
+  fill: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,6 +94,7 @@ footer {
 .contact-link:focus {
   text-decoration: none;
   color: #2196f3;
+  fill: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
