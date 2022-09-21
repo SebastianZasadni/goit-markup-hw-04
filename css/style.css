@@ -284,5 +284,7 @@ section.bottom {
   display: inline-block;
   stroke-width: 1;
   stroke: currentColor;
-  fill: currentColor;
+  fill: #757575;
+  height: 14px;
+  width: 14px;
 }
