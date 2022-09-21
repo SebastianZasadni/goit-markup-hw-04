@@ -69,12 +69,10 @@ footer {
   line-height: 1.14;
 }
 .contact-nav {
-  margin: 0px;
-  padding-left: 371px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 345px;
+  display: inline-flex;
 }
+
 .contact-link {
   text-decoration: none;
   color: #757575;
@@ -82,7 +80,6 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   margin-right: 50px;
-  display: inline-block;
 }
 
 .contact-link:hover {
@@ -92,7 +89,6 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   margin-right: 50px;
-  display: inline-block;
 }
 .contact-link:focus {
   text-decoration: none;
@@ -101,7 +97,6 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   margin-right: 50px;
-  display: inline-block;
 }
 address {
   color: #fff;
@@ -287,4 +282,10 @@ section.bottom {
   color: #757575;
   font-size: 16px;
   line-height: 1.87;
+}
+.contact-link .icon {
+  fill: #757575;
+  width: 14px;
+  height: 14px;
+  display: inline-flex;
 }
