@@ -81,12 +81,7 @@ footer {
   margin-right: 50px;
   display: inline-block;
 }
-.contact-link .icon {
-  fill: #757575;
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-}
+
 .contact-link:hover .icon {
   fill: #2196f3;
   display: inline-block;
@@ -136,6 +131,9 @@ address {
 .order-box {
   background-color: #2f303a;
   text-align: center;
+  background-image: url("../images/background-orderbox.jpg");
+
+  background: rgba(47, 48, 58, 0.4);
 }
 h1 {
   margin: 0px;
@@ -299,4 +297,10 @@ section.bottom {
   color: #757575;
   font-size: 16px;
   line-height: 1.87;
+}
+.icon {
+  fill: #757575;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
 }
