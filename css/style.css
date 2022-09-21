@@ -81,6 +81,15 @@ footer {
   margin-right: 50px;
   display: inline-block;
 }
+.contact-link .icon {
+  fill: #757575;
+}
+.contact-link:hover .icon {
+  fill: #2196f3;
+}
+.contact-link:focus .icon {
+  fill: #2196f3;
+}
 .contact-link:hover {
   text-decoration: none;
   color: #2196f3;
@@ -94,7 +103,7 @@ footer {
 .contact-link:focus {
   text-decoration: none;
   color: #2196f3;
-  fill: #2196f3;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -286,7 +295,6 @@ section.bottom {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
-  fill: #757575;
   height: 14px;
   width: 14px;
 }
