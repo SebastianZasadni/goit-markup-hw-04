@@ -293,5 +293,5 @@ section.bottom {
   fill: #2196f3;
   width: 14px;
   height: 14px;
-  display: inline-flex;
+  display: inline-block;
 }
