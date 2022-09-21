@@ -285,7 +285,7 @@ section.bottom {
 .icon {
   stroke-width: 0;
   stroke: currentColor;
-  fill: #757575;
+  fill: yellow;
   height: 14px;
   width: 14px;
 }
