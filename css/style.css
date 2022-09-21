@@ -281,7 +281,7 @@ section.bottom {
   line-height: 1.87;
 }
 .icon {
-  stroke-width: 1;
+  stroke-width: 0;
   stroke: currentColor;
   fill: #757575;
   height: 14px;
