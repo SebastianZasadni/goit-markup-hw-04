@@ -82,22 +82,9 @@ footer {
   display: inline-block;
 }
 
-.contact-link:hover .icon {
-  fill: #2196f3;
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-}
-.contact-link:focus .icon {
-  fill: #2196f3;
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-}
 .contact-link:hover {
   text-decoration: none;
   color: #2196f3;
-  fill: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -107,7 +94,6 @@ footer {
 .contact-link:focus {
   text-decoration: none;
   color: #2196f3;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -131,9 +117,9 @@ address {
 .order-box {
   background-color: #2f303a;
   text-align: center;
-  background-image: url("../images/background-orderbox.jpg");
 
-  background: rgba(47, 48, 58, 0.4);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/background-orderbox.jpg") no-repeat;
 }
 h1 {
   margin: 0px;
