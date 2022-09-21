@@ -283,6 +283,7 @@ section.bottom {
   line-height: 1.87;
 }
 .icon {
+  display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: #757575;
