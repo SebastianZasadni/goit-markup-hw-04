@@ -287,3 +287,17 @@ section.bottom {
   height: 14px;
   width: 14px;
 }
+.icon:hover {
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #2196f3;
+  height: 14px;
+  width: 14px;
+}
+.icon:focus {
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #2196f3;
+  height: 14px;
+  width: 14px;
+}
