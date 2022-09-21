@@ -283,15 +283,10 @@ section.bottom {
   font-size: 16px;
   line-height: 1.87;
 }
-.contact-link .icon {
+.icon {
   fill: #757575;
-  width: 14px;
-  height: 14px;
-  display: inline-block;
 }
+
 .contact-link:hover .icon {
   fill: #2196f3;
-  width: 14px;
-  height: 14px;
-  display: inline-block;
 }
