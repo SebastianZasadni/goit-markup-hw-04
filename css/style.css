@@ -83,12 +83,21 @@ footer {
 }
 .contact-link .icon {
   fill: #757575;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
 }
 .contact-link:hover .icon {
   fill: #2196f3;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
 }
 .contact-link:focus .icon {
   fill: #2196f3;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
 }
 .contact-link:hover {
   text-decoration: none;
@@ -290,11 +299,4 @@ section.bottom {
   color: #757575;
   font-size: 16px;
   line-height: 1.87;
-}
-.icon {
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
-  height: 14px;
-  width: 14px;
 }
