@@ -292,14 +292,7 @@ section.bottom {
 .contact-link:hover .icon-contact path {
   fill: #2196f3;
 }
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
+
 .icon-contact {
   display: inline-block;
   width: 1em;
@@ -313,4 +306,23 @@ section.bottom {
 }
 .icon-mobile {
   width: 0.625em;
+}
+.icon-lorem {
+  display: inline-block;
+  width: 65.32px;
+  height: 70px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  text-align: center;
+}
+.lorem-svgbox {
+  width: 270px;
+  height: 120px;
+  border: 0px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
