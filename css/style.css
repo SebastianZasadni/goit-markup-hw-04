@@ -361,3 +361,11 @@ section.bottom {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
+.company-logo {
+  display: inline-block;
+  width: 106px;
+  height: 60px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
