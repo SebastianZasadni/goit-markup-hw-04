@@ -311,6 +311,7 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  margin-right: 10px;
 }
 .icon-envelop {
   width: 16px;
