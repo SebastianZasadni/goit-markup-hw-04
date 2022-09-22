@@ -217,7 +217,7 @@ section.bottom {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   margin: 0px;
 }
 .portfolio-list {
@@ -393,7 +393,6 @@ section.bottom {
   list-style: none;
   display: flex;
   margin: 0px;
-  padding-top: 16px;
   padding-bottom: 30px;
 }
 .social-link {
