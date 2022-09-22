@@ -392,6 +392,9 @@ section.bottom {
 .socialmedia-list {
   list-style: none;
   display: flex;
+  margin: 0px;
+  padding-top: 16px;
+  padding-bottom: 30px;
 }
 .social-link {
   display: inline-block;
