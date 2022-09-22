@@ -288,8 +288,13 @@ section.bottom {
   font-size: 16px;
   line-height: 1.87;
 }
-
-.contact-link:hover .icon-contact path {
+.contact-link .icon-contact {
+  fill: #757575;
+}
+.contact-link:hover .icon-contact {
+  fill: #2196f3;
+}
+.contact-link:focus .icon-contact {
   fill: #2196f3;
 }
 
