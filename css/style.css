@@ -307,10 +307,12 @@ section.bottom {
   fill: currentColor;
 }
 .icon-envelop {
-  width: 1.3330078125em;
+  width: 16px;
+  height: 12px;
 }
 .icon-mobile {
-  width: 0.625em;
+  width: 10px;
+  height: 16px;
 }
 .icon-lorem {
   display: inline-block;
