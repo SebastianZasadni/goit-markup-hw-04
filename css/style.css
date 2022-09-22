@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   width: 1600px;
-  }
+}
 .container {
   width: 1200px;
   margin: auto;
@@ -76,7 +76,6 @@ footer .container {
 .contact-nav {
   margin-left: 345px;
 }
-
 .contact-link {
   display: inline-block;
   text-decoration: none;
@@ -108,7 +107,6 @@ footer .container {
   font-size: 14px;
   line-height: 1.14;
 }
-
 address {
   color: #fff;
   font-size: 14px;
@@ -117,7 +115,6 @@ address {
   padding-bottom: 9px;
   margin: 0px;
 }
-
 .contact-footer .contact-link {
   padding-top: 9px;
 }
@@ -128,8 +125,7 @@ address {
     url("../images/background-orderbox.jpg") no-repeat;
   background-size: cover;
   max-width: 1600px;
-  }
-  
+}
 h1 {
   margin: 0px;
   padding-top: 200px;
@@ -167,7 +163,6 @@ section {
   padding: 0px;
   justify-content: space-between;
 }
-
 .lorem-header {
   margin: 0px;
   font-weight: 700;
@@ -182,7 +177,6 @@ section {
   margin: 0px;
   padding-top: 10px;
 }
-
 .section-header {
   font-weight: 700;
   font-size: 36px;
@@ -195,7 +189,6 @@ section {
   display: flex;
   justify-content: space-between;
 }
-
 section.bottom {
   background-color: #f5f4fa;
 }
@@ -402,7 +395,6 @@ section.bottom {
   justify-content: space-between;
   margin: 0px;
 }
-
 .social-link {
   display: inline-block;
   width: 44px;
@@ -477,3 +469,4 @@ section.bottom {
   fill: #fff;
   border-radius: 50%;
   background-color: #2196f3;
+}
