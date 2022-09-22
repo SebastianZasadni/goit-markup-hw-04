@@ -69,8 +69,7 @@ footer {
   line-height: 1.14;
 }
 .contact-nav {
-  margin-left: 345px;
-  display: inline-flex;
+  margin-left: 381px;
 }
 
 .contact-link {
@@ -79,16 +78,22 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-right: 50px;
 }
-
+.contact-link:not(:first-child) {
+  margin-left: 50px;
+}
+.contact-link:hover:not(:first-child) {
+  margin-left: 50px;
+}
+.contact-link:focus:not(:first-child) {
+  margin-left: 50px;
+}
 .contact-link:hover {
   text-decoration: none;
   color: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-right: 50px;
 }
 .contact-link:focus {
   text-decoration: none;
@@ -96,8 +101,8 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-right: 50px;
 }
+
 address {
   color: #fff;
   font-size: 14px;
@@ -283,10 +288,12 @@ section.bottom {
   font-size: 16px;
   line-height: 1.87;
 }
-.icon {
+.icon-contact {
   fill: #757575;
+
+  margin-right: 10px;
 }
 
-.contact-link:hover .icon {
+.contact-link:hover .icon-contact {
   fill: #2196f3;
 }
