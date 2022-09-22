@@ -289,7 +289,7 @@ section.bottom {
   line-height: 1.87;
 }
 
-.contact-link:hover .icon-contact {
+.contact-link:hover .icon-contact path {
   fill: #2196f3;
 }
 .icon {
