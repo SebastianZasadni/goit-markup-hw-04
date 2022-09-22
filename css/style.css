@@ -296,12 +296,15 @@ section.bottom {
 }
 .contact-link .icon-contact {
   fill: #757575;
+  margin-right: 10px;
 }
 .contact-link:hover .icon-contact {
   fill: #2196f3;
+  margin-right: 10px;
 }
 .contact-link:focus .icon-contact {
   fill: #2196f3;
+  margin-right: 10px;
 }
 
 .icon-contact {
@@ -311,7 +314,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  margin-right: 10px;
 }
 .icon-envelop {
   width: 16px;
@@ -340,4 +342,16 @@ section.bottom {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+.ourclient-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ourclient-card {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
