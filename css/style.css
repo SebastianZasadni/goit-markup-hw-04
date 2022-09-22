@@ -289,10 +289,7 @@ section.bottom {
   line-height: 1.87;
 }
 .icon-contact {
-  display: inline block;
   fill: #757575;
-
-  margin-right: 10px;
 }
 
 .contact-link:hover .icon-contact {
