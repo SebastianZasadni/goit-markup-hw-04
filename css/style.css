@@ -288,10 +288,21 @@ section.bottom {
   font-size: 16px;
   line-height: 1.87;
 }
-.icon-contact {
-  fill: #757575;
-}
 
 .contact-link:hover .icon-contact {
   fill: #2196f3;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-envelop {
+  width: 1.3330078125em;
+}
+.icon-mobile {
+  width: 0.625em;
 }
