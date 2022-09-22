@@ -389,6 +389,12 @@ section.bottom {
   stroke: currentColor;
   fill: #afb1b8;
 }
+.socialmedia-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social-link {
   display: inline-block;
   width: 44px;
