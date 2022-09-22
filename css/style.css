@@ -355,3 +355,9 @@ section.bottom {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+.ourclient-card:hover {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
