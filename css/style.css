@@ -73,19 +73,20 @@ footer {
 }
 
 .contact-link {
+  display: inline-block;
   text-decoration: none;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-.contact-link:not(:first-child) {
+.contact-nav .contact-link:not(:first-child) {
   margin-left: 50px;
 }
-.contact-link:hover:not(:first-child) {
+.contact-nav .contact-link:hover:not(:first-child) {
   margin-left: 50px;
 }
-.contact-link:focus:not(:first-child) {
+.contact-nav .contact-link:focus:not(:first-child) {
   margin-left: 50px;
 }
 .contact-link:hover {
@@ -108,12 +109,10 @@ address {
   font-size: 14px;
   line-height: 1.71;
   padding-top: 20px;
+  padding-bottom: 9px;
   margin: 0px;
 }
-.contact-footer {
-  margin: 0px;
-  padding: 0px;
-}
+
 .contact-footer .contact-link {
   padding-top: 9px;
 }
