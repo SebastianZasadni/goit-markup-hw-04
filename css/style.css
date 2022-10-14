@@ -89,14 +89,8 @@ footer .container {
   font-size: 14px;
   line-height: 1.14;
 }
-.contact-nav .contact-link:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:hover:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:focus:not(:first-child) {
-  margin-left: 50px;
+.contact-link:not(:last-child) {
+  margin-right: 30px;
 }
 .contact-link:hover {
   text-decoration: none;
