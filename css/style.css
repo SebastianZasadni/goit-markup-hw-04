@@ -152,6 +152,7 @@ h1 {
   line-height: 1.87;
   color: #fff;
   cursor: pointer;
+  border: 0px;
 }
 section {
   padding: 94px 0px;
