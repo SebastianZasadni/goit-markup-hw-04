@@ -1,6 +1,11 @@
+:root {
+  --light-blue: #2196f3;
+  --black: #212121;
+  --grey: #757575;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--black);
   width: 1600px;
 }
 .container {
@@ -28,7 +33,7 @@ footer .container {
   margin: 0px;
   text-decoration: none;
   font-family: "Raleway";
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -55,11 +60,11 @@ footer .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--black);
 }
 .nav-link:focus {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +72,7 @@ footer .container {
 }
 .nav-link:hover {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -79,7 +84,7 @@ footer .container {
 .contact-link {
   display: inline-block;
   text-decoration: none;
-  color: #757575;
+  color: var(--grey);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -95,14 +100,14 @@ footer .container {
 }
 .contact-link:hover {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .contact-link:focus {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -136,18 +141,16 @@ h1 {
   color: #fff;
 }
 .order-button {
-  padding: 0px;
+  padding: 10px 41px 10px 42px;
   margin-top: 30px;
   margin-bottom: 210px;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: #fff;
-  width: 200px;
-  height: 50px;
   cursor: pointer;
 }
 section {
@@ -171,7 +174,7 @@ section {
   text-transform: uppercase;
 }
 .lorem-describe {
-  color: #757575;
+  color: var(--grey);
   font-size: 14px;
   line-height: 1.71;
   margin: 0px;
@@ -212,7 +215,7 @@ section.bottom {
   padding-bottom: 10px;
 }
 .job-title {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -247,7 +250,7 @@ section.bottom {
   border: 0px;
   cursor: pointer;
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   margin-left: 8px;
@@ -261,7 +264,7 @@ section.bottom {
   border: 0px;
   cursor: pointer;
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   margin-left: 8px;
@@ -294,20 +297,20 @@ section.bottom {
   line-height: 2;
 }
 .project-type {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.87;
 }
 .contact-link .icon-contact {
-  fill: #757575;
+  fill: var(--grey);
   margin-right: 10px;
 }
 .contact-link:hover .icon-contact {
-  fill: #2196f3;
+  fill: var(--light-blue);
   margin-right: 10px;
 }
 .contact-link:focus .icon-contact {
-  fill: #2196f3;
+  fill: var(--light-blue);
   margin-right: 10px;
 }
 
@@ -365,20 +368,20 @@ section.bottom {
 .ourclient-card:hover {
   width: 170px;
   height: 92px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
 .ourclient-card:focus {
   width: 170px;
   height: 92px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
 .ourclient-card:hover .company-logo {
-  fill: #2196f3;
+  fill: var(--light-blue);
 }
 .ourclient-card:focus .company-logo {
-  fill: #2196f3;
+  fill: var(--light-blue);
 }
 .company-logo {
   display: inline-block;
@@ -412,7 +415,7 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 .social-link:focus {
   display: inline-block;
@@ -422,7 +425,7 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 .join-us {
   font-family: "Roboto";
@@ -458,7 +461,7 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 .footersocial-box .socialmedia-list .socialmedia-item .social-link:focus {
   display: inline-block;
@@ -468,5 +471,5 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
